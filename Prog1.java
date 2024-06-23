@@ -1,14 +1,14 @@
 import java.util.*;
-public class Prog {
+public class Prog1 {
     public static void main(String[] arg)
     {
-        List<Integer> L= new ArrayList<Integer>();
-        for(int i=0;i<100;i++)
+        Set L=new HashSet();
+        for(int i=0;i<5;i++)
         {
             L.add(i);
 
         }
-        L.remove(1);
         System.out.println(L);
     }
+
 }
